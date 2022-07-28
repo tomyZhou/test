@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image0"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/image0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/RoundedStyle1" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/image1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/RoundedStyle2" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image0"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle2"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="@id/image5"
+        app:layout_constraintStart_toEndOf="@id/image3"
+        app:layout_constraintTop_toBottomOf="@id/image1"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle3"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image4"
+        app:layout_constraintTop_toBottomOf="@id/image1"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle4"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image3"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle5"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="@id/image8"
+        app:layout_constraintStart_toEndOf="@id/image6"
+        app:layout_constraintTop_toBottomOf="@id/image3"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle6" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image8"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image7"
+        app:layout_constraintTop_toBottomOf="@id/image3"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle4"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image9"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image6"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle5"
+        app:strokeColor="#00ff00"
+        app:strokeWidth="4dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image11"
+        app:layout_constraintStart_toEndOf="@id/image9"
+        app:layout_constraintTop_toBottomOf="@id/image6"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle7" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image10"
+        app:layout_constraintTop_toBottomOf="@id/image6"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle8" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image10"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:shapeAppearance="@style/RoundedStyle9" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toStartOf="@id/image14"
+        app:layout_constraintStart_toEndOf="@id/image12"
+        app:layout_constraintTop_toBottomOf="@id/image10"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image14"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image13"
+        app:layout_constraintTop_toBottomOf="@id/image10"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="你好，我是自定义的气泡效果"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+rootProject.name = "test"
+include ':app'
+include ':home'
+include ':login'
+include ':base'
