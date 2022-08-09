@@ -8,7 +8,7 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.2.0"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30'
 
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'  //kotlin中 AspectJ不生效 https://blog.csdn.net/EthanCo/article/details/87938487
 
@@ -21,6 +21,7 @@ allprojects {
         google()
         mavenCentral()
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 

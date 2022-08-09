@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/d0293c7772f77b7098d9a5967fe33538/jetified-appcompat-resources-1.2.0/res/drawable/abc_vector_test.xml" value="0.3055" />
+        <entry key="..\:/workspace/test/app/src/main/res/layout/activity_list_news.xml" value="0.16666666666666666" />
         <entry key="..\:/workspace/test/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/workspace/test/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/workspace/test/app/src/main/res/layout/layout.xml" value="0.2375" />
+        <entry key="..\:/workspace/test/app/src/main/res/layout/layout_item_news.xml" value="0.19895833333333332" />
         <entry key="..\:/workspace/test/home/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/workspace/test/login/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/workspace/test/login/src/main/res/layout/activity_main.xml" value="0.33" />

@@ -13,14 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity android:name=".MainActivity">
+            android:name=".ListNewsActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity android:name=".MainActivity">
         </activity>
 
         <activity-alias
@@ -29,15 +33,12 @@
             android:icon="@drawable/app_icon"
             android:label="新年快乐"
             android:targetActivity=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity-alias>
-
     </application>
 
 </manifest>
