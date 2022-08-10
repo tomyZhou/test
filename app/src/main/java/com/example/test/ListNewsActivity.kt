@@ -19,6 +19,8 @@ class ListNewsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+//      StatusbarUtil.transparentMode(this, true,false)
         setContentView(R.layout.activity_list_news)
 
         for (i in 0 .. 100) {
@@ -86,7 +88,7 @@ class ListNewsActivity : AppCompatActivity() {
 
         //这里的 0..5 左右都是闭区间的  012345,    0 until 5 左闭右开   01234
         for (i in 0 .. length) {
-            Log.e("xxx","循环检查$i")
+//            Log.e("xxx","循环检查$i")
             view = rv_news.getChildAt(i)  //只有首屏能容纳item个数+1个childView，这种打点方式不可行
             if (view != null) {
                 val isVisible = view.getGlobalVisibleRect(mViewRect)  //复用，总共只有首屏个数+1个item

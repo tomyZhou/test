@@ -1,5 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <!-- Light.NoActionBar默认是灰色背景，白色图标-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimaryDark">#FF4163</item>  <!--这一句设置状态栏背景颜色-->
+            <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>  <!-- true 图标变成黑色 ,false 图标变成白色-->
     </style>
 </resources>
