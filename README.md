@@ -11,3 +11,5 @@
 5.CrashCatchHandler  系统异常捕获
 
 6.动态换App图标，应用名（只是个小demo，有很多坑和兼容问题https://blog.csdn.net/weixin_34378922/article/details/88023129?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-88023129-blog-117294190.pc_relevant_default&spm=1001.2101.3001.4242.2&utm_relevant_index=3）
+
+7. 状态栏颜色控制
